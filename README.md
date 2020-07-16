@@ -99,6 +99,8 @@ type_virginica   0.001  0.498654
 type_versicolor  0.013  0.038214
 ```
 
-### note
-* the output of python and R have "tiny" difference. That's due to the way python and R implement linear regression.
-*
+### note and to-do-list
+* the purpose of this envfit (python version) script is reducing time consumption and avoid using R2py in a python script which need envfit to be done.
+* the output of python and R have "tiny" difference. That's due to the way python and R implement linear regression. The bottom function of linear model generating in vengan:envfit is C code.
+-[ ] multiprocessing: my python script is even slower than R based on iris dataset, I wonder if multiprocessing can save this shit. :turtle: :shit:
+-[ ] test on large dataset and record time consuming, comparing with R.

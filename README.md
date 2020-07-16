@@ -104,6 +104,6 @@ type_versicolor  0.013  0.038214
 * the output of python and R have "tiny" difference. That's due to the way python and R implement linear regression. The bottom function of linear model generating in vengan:envfit is C code.
 
 
--[ ] multiprocessing: my python script is even slower than R based on iris dataset, I wonder if multiprocessing can save this shit. :turtle: :shit:
+- [ ] multiprocessing: my python script is even slower than R based on iris dataset, I wonder if multiprocessing can save this shit. :turtle: :shit:
 
--[ ] test on large dataset and record time consuming, comparing with R.
+- [ ] test on large dataset and record time consuming, comparing with R.
